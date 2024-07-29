@@ -19,11 +19,11 @@ prototype -> test environment -> production
 The key is to provde flexible infrastructure to build working system fast at protytping stage and after it will work correct go forward with test stage based on kubernetes with IaC and to production with Openshift
 
 
-### Steps from prototyping to defining IaC:
+### Steps from prototyping to production:
 
-+ proxmox based
-+ kubernetes based
-+ openshift based
++ proxmox based (Edge computing with VM)
++ kubernetes based (Test stage based on IaC description)
++ openshift based (Cloud production with monitoring systems)
 
 
 
