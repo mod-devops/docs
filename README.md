@@ -21,9 +21,9 @@ The key is to provde flexible infrastructure to build working system fast at pro
 
 ### Steps from prototyping to production:
 
-+ proxmox based (Edge computing with VM)
-+ kubernetes based (Test stage based on IaC description)
-+ openshift based (Cloud production with monitoring systems)
++ [proxmox based -Edge computing with VM](#prototyping-stage-v1)
++ [kubernetes based - Test stage based on IaC description](#prototyping-stage-v2)
++ [openshift based - Cloud production with monitoring systems](#mvp-stage-based-on-openshift)
 
 
 
