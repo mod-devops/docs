@@ -9,7 +9,7 @@
 + [identity](http://identity.moddevops.com)
 
 
-Below are descrirbed 4 different version of Infrastructure
+Below are descrirbed 4 different versions of Infrastructure
 
 
 ```
