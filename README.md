@@ -9,6 +9,24 @@
 + [identity](http://identity.moddevops.com)
 
 
+Below are descrirbed 4 different version of Infrastructure
+
+
+```
+prototype -> test environment -> production
+```
+
+The key is to provde flexible infrastructure to build working system fast at protytping stage and after it will work correct go forward with test stage based on kubernetes with IaC and to production with Openshift
+
+
+### Steps from prototyping to defining IaC:
+
++ proxmox based
++ kubernetes based
++ openshift based
+
+
+
 
 ## Prototyping stage v1
 
