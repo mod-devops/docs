@@ -35,22 +35,22 @@ It allows for:
 
 It uses proven, open-source technologies, which can make the development and maintenance of the system easier.
 
-### Hypervisor: Proxmox (KVM)
+### Hypervisor: [Proxmox - KVM](https://www.proxmox.com/en/)
 - It is a KVM-based virtualization platform that provides flexible management of virtual machines.
 
-### Operating system: Debian 12
+### Operating system: [Debian 12](https://www.debian.org/)
 - A stable and secure Linux operating system, often used in server environments.
 
-### Operational scripts: Python (v2 / v3)
+### Operational scripts: [Python v2 / v3](https://www.python.org/)
 - A versatile programming language, great for automation and operational scripts.
 
-### Data exchange: WebDAV
+### Data exchange: [WebDAV](https://en.wikipedia.org/wiki/WebDAV)
 - An HTTP extension protocol that allows collaboration and management of files on the server.
 
-### DSL API: Apache Camel (Java)
+### DSL API: [Apache Camel - Java](https://camel.apache.org/)
 - An integration framework that allows easy connection of different systems and protocols.
 
-### Design: Karavan
+### Design: [Karavan](https://camel.apache.org/categories/Karavan/)
 - A tool for designing and managing Apache Camel integrations.
 
 
