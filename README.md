@@ -33,27 +33,26 @@ It allows for:
 
 ## Layers
 
-1. Hypervisor: Proxmox (KVM)
+It uses proven, open-source technologies, which can make the development and maintenance of the system easier.
+
+### Hypervisor: Proxmox (KVM)
 - It is a KVM-based virtualization platform that provides flexible management of virtual machines.
 
-2. Operating system: Debian 12
+### Operating system: Debian 12
 - A stable and secure Linux operating system, often used in server environments.
 
-3. Operational scripts: Python (v2 / v3)
+### Operational scripts: Python (v2 / v3)
 - A versatile programming language, great for automation and operational scripts.
 
-4. Data exchange: WebDAV
+### Data exchange: WebDAV
 - An HTTP extension protocol that allows collaboration and management of files on the server.
 
-5. DSL API: Apache Camel (Java)
+### DSL API: Apache Camel (Java)
 - An integration framework that allows easy connection of different systems and protocols.
 
-6. Design: Karavan
+### Design: Karavan
 - A tool for designing and managing Apache Camel integrations.
 
- It uses proven, open-source technologies, which can make the development and maintenance of the system easier.
-
-Would you like to discuss in more detail any particular aspect of this architecture or how these components work together?
 
 
 ## table
