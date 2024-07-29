@@ -94,37 +94,32 @@ By incorporating these improvements and tools, the architecture described will b
   
 ### Layered System Structure:
 
-1. **Client Interface Layer**:
-    - **Goal:** Provide interfaces for client-specific implementations.
-    - **Components**:
-        - **Client SDK:** Libraries/APIs in Python, Java, etc., to integrate the client systems with the backend services.
-        - **Web Interface**: A user-friendly web interface basis in popular front-end frameworks (e.g., React, Angular) for configuration and management.
+#### Client Interface Layer
+Provide interfaces for client-specific implementations.
+- **Client SDK:** Libraries/APIs in Python, Java, etc., to integrate the client systems with the backend services.
+- **Web Interface**: A user-friendly web interface basis in popular front-end frameworks (e.g., React, Angular) for configuration and management.
 
-2. **Service Logic Layer**:
-    - **Goal:** Implement core business logic and services.
-    - **Components**:
-        - **Apache Camel (Java):** Define routes and mediation rules for integrating various services.
-        - **Karavan Designer:** Simplify the process design.
-        - **Service Containers:** Use Docker to encapsulate microservices for more granular control over scalability and deployment.
+#### Service Logic Layer
+Implement core business logic and services.
+- **Apache Camel (Java):** Define routes and mediation rules for integrating various services.
+- **Karavan Designer:** Simplify the process design.
+- **Service Containers:** Use Docker to encapsulate microservices for more granular control over scalability and deployment.
 
-3. **Orchestration Layer**:
-    - **Goal:** Orchestrate and manage the deployment of various service containers/modules.
-    - **Components**:
-        - **Kubernetes**: Manage the lifecycle of containers, ensures high availability, and scales automatically.
-        - **Helm**: For Kubernetes applications package management.
+#### Orchestration Layer
+Orchestrate and manage the deployment of various service containers/modules.
+- **Kubernetes**: Manage the lifecycle of containers, ensures high availability, and scales automatically.
+- **Helm**: For Kubernetes applications package management.
 
-4. **Persistence Layer**:
-    - **Goal**: Persistent storage for application data.
-    - **Components**:
-        - **Data Storage**: Use databases like PostgreSQL, MongoDB, optimized for the required workload.
-        - **WebDAV**: For syncing and collaborative file management.
+#### Persistence Layer
+Persistent storage for application data.
+- **Data Storage**: Use databases like PostgreSQL, MongoDB, optimized for the required workload.
+- **WebDAV**: For syncing and collaborative file management.
 
-5. **Infrastructure Layer**:
-    - **Goal**: Provide the underlying VM and OS for higher layers.
-    - **Components**:
-        - **Hypervisor**: Proxmox - KVM; manages VMs and provides flexible resource allocation.
-        - **Operating System**: Debian 12 as a stable and secure Linux distribution.
-        - **Operational Scripts**: Python scripts (v2/v3) for automation and operational tasks.
+#### Infrastructure Layer
+Provide the underlying VM and OS for higher layers.
+- **Hypervisor**: Proxmox - KVM; manages VMs and provides flexible resource allocation.
+- **Operating System**: Debian 12 as a stable and secure Linux distribution.
+- **Operational Scripts**: Python scripts (v2/v3) for automation and operational tasks.
         
 ### Module Integration and Deployment
 
