@@ -72,12 +72,26 @@ Designing,karavan,,https://camel.apache.org/categories/Karavan/
 
 ## Prototyping stage v2
 
+By incorporating these improvements and tools, the architecture described will be even more robust, flexible, and scalable, meeting both the current and future needs effectively.
+
+
 ### Key Requirements and Objectives
 * **Robustness:** The system should be resilient, handling failures gracefully.
 * **Flexibility:** Easily adapt to changing requirements and customer needs.
 * **Scalability:** Seamless scaling to handle growing demands.
 * **Modularization:** Encapsulate functionalities in self-contained units for better manageability.
 
+
+### Open-source Technologies
+
+* **Proxmox VE**: Reliable, flexible VM management based on KVM.
+* **Debian 12**: Stable OS for secure operations.
+* **Python**: Versatile scripting language for automation and operational tasks.
+* **WebDAV**: HTTP extension for collaborative file management.
+* **Apache Camel (Java)**: Integration framework to facilitate communication between services.
+* **Karavan Designer**: Tool to visually design and manage Apache Camel integrations.
+* **Kubernetes & Docker**: Standard tools for container orchestration and management, ensuring services are modular, scalable, and replacement-friendly.
+  
 ### Layered System Structure:
 
 1. **Client Interface Layer**:
@@ -112,7 +126,7 @@ Designing,karavan,,https://camel.apache.org/categories/Karavan/
         - **Operating System**: Debian 12 as a stable and secure Linux distribution.
         - **Operational Scripts**: Python scripts (v2/v3) for automation and operational tasks.
         
-#### Module Integration and Deployment
+### Module Integration and Deployment
 
 * **Modular Units (Microservices)**:
   - Each module/service runs in its own container, providing isolation and easy replacement.
@@ -122,7 +136,7 @@ Designing,karavan,,https://camel.apache.org/categories/Karavan/
     - **Cloud & Edge Computing Support**: Implement infrastructure-agnostic deployments.
     - Use CI/CD tools (e.g., Jenkins, GitLab CI) to automate testing, building, and deployment processes.
 
-#### Design Considerations
+### Design Considerations
 
 1. **Process Modeling**:
     - Use **Karavan Designer** to define Apache Camel routes and workflows, which facilitates visual design and better understanding for both developers and non-developers.
@@ -132,15 +146,6 @@ Designing,karavan,,https://camel.apache.org/categories/Karavan/
     - Use Apache Camel's capabilities to integrate various data sources and services efficiently.
     - Camel routes facilitate data transformation and routing, ensuring a smooth data flow among modules.
 
-#### Open-source Technologies
-
-* **Proxmox VE**: Reliable, flexible VM management based on KVM.
-* **Debian 12**: Stable OS for secure operations.
-* **Python**: Versatile scripting language for automation and operational tasks.
-* **WebDAV**: HTTP extension for collaborative file management.
-* **Apache Camel (Java)**: Integration framework to facilitate communication between services.
-* **Karavan Designer**: Tool to visually design and manage Apache Camel integrations.
-* **Kubernetes & Docker**: Standard tools for container orchestration and management, ensuring services are modular, scalable, and replacement-friendly.
 
 ### Advantages
 
@@ -150,7 +155,6 @@ Designing,karavan,,https://camel.apache.org/categories/Karavan/
 * **Infrastructure Abstraction**: With the business logic abstracted from the underlying infra, it’s easier to adoptions changes in the deployment environment.
 * **Open-source Tools**: Leveraging open-source software reduces costs and increases community support and extensions.
 
-By incorporating these improvements and tools, the architecture described will be even more robust, flexible, and scalable, meeting both the current and future needs effectively.
 
 
 
